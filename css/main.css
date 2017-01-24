@@ -6,10 +6,9 @@ body {
 
 /* line 12, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
 #logo-icon {
-  float: left;
   margin: 1rem 0; }
 
-/* line 16, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+/* line 15, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
 #github-icon,
 #linkedin-icon,
 #fb-icon {
@@ -17,25 +16,26 @@ body {
   margin: 1rem;
   color: #2b2b2b;
   transition: color .3s; }
-  /* line 23, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+  /* line 22, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
   #github-icon:hover,
   #linkedin-icon:hover,
   #fb-icon:hover {
     color: #616161; }
 
-/* line 26, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+/* line 25, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
 #heading-section {
   text-align: center;
-  margin-top: 20rem; }
+  margin-top: 40rem;
+  margin-bottom: 40rem; }
   /* line 29, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
   #heading-section h1 {
     font-weight: 700;
-    font-size: 7.2rem; }
+    font-size: 8.2rem; }
   /* line 32, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
   #heading-section h3 {
     text-transform: uppercase;
-    font-size: 2.8rem;
-    color: #dd1b1b; }
+    font-size: 3.4rem;
+    color: #103E50; }
   /* line 36, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
   #heading-section .btn-about {
     margin: 2.5rem auto;
@@ -54,12 +54,20 @@ body {
       -webkit-box-shadow: 0 1.3rem 1rem .1rem gray;
       -moz-box-shadow: 0 1.3rem 1rem .1rem gray;
       box-shadow: 0 .4rem 1rem .1rem gray; }
-    /* line 53, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+    /* line 52, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
     #heading-section .btn-about a {
       color: #2b2b2b;
       font-weight: 700;
       text-decoration: none;
       font-size: 2rem;
       vertical-align: middle; }
+
+/* line 59, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+#about {
+  background: #D9D375; }
+
+/* line 61, C:/Users/Patryk/Desktop/CV , FRONT-END/portfolio/css/main.sass */
+#about-img {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
